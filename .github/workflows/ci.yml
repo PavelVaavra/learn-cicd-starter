@@ -21,4 +21,4 @@ jobs:
       - name: Show Go version and exit with 0
         run: 
           go version
-          exit 0
+          (exit 0)
