@@ -11,7 +11,7 @@ func TestGetAPIKey(t *testing.T) {
 		input http.Header
 		want  string
 	}{
-		"simple": {input: http.Header{"Authorization": []string{"ApiKey 123456"}}, want: "1234567"},
+		"simple": {input: http.Header{"Authorization": []string{"ApiKey 123456"}}, want: "123456"},
 	}
 
 	for name, tc := range tests {
